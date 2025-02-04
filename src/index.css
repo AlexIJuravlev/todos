@@ -13,56 +13,38 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-a {
-	font-weight: 500;
-	color: #646cff;
-	text-decoration: inherit;
-}
-a:hover {
-	color: #535bf2;
+.main {
+
 }
 
-body {
-	margin: 0;
+.todos {
 	display: flex;
-	place-items: center;
-	min-width: 320px;
-	min-height: 100vh;
+	justify-content: center;
+	text-align: center;
 }
 
-h1 {
-	font-size: 3.2em;
-	line-height: 1.1;
-}
-
-button {
-	border-radius: 8px;
-	border: 1px solid transparent;
-	padding: 0.6em 1.2em;
-	font-size: 1em;
-	font-weight: 500;
-	font-family: inherit;
-	background-color: #1a1a1a;
+.todos__task {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 10px;
 	cursor: pointer;
-	transition: border-color 0.25s;
-}
-button:hover {
-	border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-	outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
-	}
-	a:hover {
-		color: #747bff;
-	}
-	button {
-		background-color: #f9f9f9;
-	}
+.todos__task:hover {
+	border: 1px solid #fff;
+	max-width: 100%;
+
+}
+
+.todos__taskNumber{
+	font-size: 15px;
+	position: absolute;
+	border: 1px solid;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.todos__title {
+	margin-left: 32px;
 }
