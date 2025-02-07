@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "привет",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "completed": false,
+      "title": "fsda",
+      "id": 2
+    },
+    {
+      "completed": false,
+      "title": "dsasdasadsadsa",
+      "id": 3
+    }
+  ]
+}
