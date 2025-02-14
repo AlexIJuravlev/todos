@@ -1,0 +1,23 @@
+.navLink{
+	all: unset;
+}
+
+.backBtn{
+	position: fixed;
+	right: 5%;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 40%;
+	background-color: aquamarine;
+	color: black;
+	cursor: pointer;
+	transition: .2s;
+	width: 75px
+}
+
+.backBtn:hover{
+	background-color: white;
+	box-shadow: 2px 2px 4px;
+	border-radius: 50%;
+	transition: .2s;
+}
